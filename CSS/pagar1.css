@@ -1,0 +1,45 @@
+body{
+    background-color: gainsboro; 
+}
+
+main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 5rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.1rem solid black;
+    background-color: darkolivegreen;
+}
+
+.logo{
+    font-size: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.imagem-camera{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    border: 0.3rem solid black;
+}
+
+.pagando{
+    position: relative;
+    bottom: 3rem;
+    font-size: 2rem;
+}

@@ -3,39 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receber - QRCode</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/receber2.css">
 </head>
 
 <body>
 
     <header>
 
-        <a href='Menu.html'>☰</a>
+        <a href="Menu"><img src="http://via.placeholder.com/44x44" alt=""></a>
 
-        <h1> AllPay </h1>
+        <h1 class = "logo"> AllPay</h1>
 
     </header>
 
     <main>
 
-        <h2> Receber </h2>
+        <h2 class = "destaque"> Receber </h2>
 
-        <!-- QR Code -->
+        <section class = "section-qrcode">
+        
+            <!-- QR Code -->
+            
+            <img class = "qrcode" src="IMG/QRCode.png" alt="QRCode">
 
-        <img src="IMG/QRCode.png" alt="QRCode">
+            <h3> Conta a Receber: </h3>
 
-        <h3> Conta a receber </h3>
+            <p class = "subtexto"> 598.***.***-47</p>
 
-        <p> 598.***.***-47</p>
-
-        <!-- Este botão não existirá em nosso aplicativo, apenas foi incrementado para permitir o fluxo de telas no momento -->
-
-        <a href='Receber3.html'>Tela Seguinte</a>
-
+        </section>
+        
         <!-- Botão indicado pelo usuário para editar valor, caso insira errado -->
 
-        <a href='Receber1.html'>Editar Valor</a>
+        <a class = "botao fonte" href='Receber1.html'>Editar Valor</a>
+        
+        <!-- Este botão não existirá em nosso aplicativo, apenas foi incrementado para permitir o fluxo de telas no momento -->
 
+        <a class = "tela-seguinte" href='Receber3.html'>Tela Seguinte</a>
 
     </main>
 </body>
