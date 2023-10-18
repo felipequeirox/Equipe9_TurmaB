@@ -1,0 +1,130 @@
+body{
+    background-color: gainsboro; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.1rem solid black;
+    background-color: darkolivegreen;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.section-vendas{
+    padding: 1rem;
+    border: 0.1rem solid black;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    top: 5rem;
+    width: 8rem;
+    height: 4rem;
+}
+
+.section-gastos{
+    padding: 1rem;
+    border: 0.1rem solid black;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    left: 10.5rem;
+    bottom: 1.2rem;
+    width: 8rem;
+    height: 4rem;
+}
+
+.destaque{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.valor{
+    font-size: 1.3rem;
+    position: relative;
+    top: 1rem;
+}
+
+.section-transacoes{
+    padding-right: 0rem;
+    border-right: 0.1rem solid black;
+    position: relative;
+    top: 2rem;
+    width: 8rem;
+    height: 10rem;
+}
+
+.subtexto{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.data{
+    font-weight: bold;
+}
+
+.section-grafico{
+    position: relative;
+    left: 9rem;
+    width: 9rem;
+    bottom: 8rem;
+}
+
+.grafico{
+    width: 12rem;
+    height: 10rem;
+}
+
+.botao{
+    display: flex; 
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    min-width: 8rem; 
+    height: 0.7rem;
+    bottom: 2.5rem;
+    right: 1.5rem;
+    background-color: darkseagreen;
+}
+    
+.fonte{
+    align-items: center;
+    font-size: 1.2rem
+}
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
+}

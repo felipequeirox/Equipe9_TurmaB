@@ -1,0 +1,126 @@
+body{
+    background-color: gainsboro; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.1rem solid black;
+    background-color: darkolivegreen;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.historico{
+    position: relative;
+    top: 1.5rem;
+    font-size: 2rem;
+}
+
+.grafico-img{
+    width: 22rem;
+    height: 12rem;
+    justify-content: center;
+}
+
+.section-grafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 4rem;
+}
+
+.negrito{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.lucro-diario{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+    padding: 0.5rem;
+    bottom: 12rem;
+    left:15.5rem;
+    border-radius: 10%;
+}
+
+.ultimas-transacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+    background-color:rgba(169, 169, 169, 0.747);
+    border: 0.1rem solid black;
+    padding: 2rem;
+    width: 18rem;
+    height: 6rem;
+    top: 4rem;
+}
+
+.titulo-ultimas-transacoes{
+    position: relative;
+    bottom: 0.8rem;
+    right: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.obter-infos{
+    position: absolute;
+    bottom: 0.8rem;
+    left: 9rem;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    width: rem; 
+    height: 0.5rem;
+    background-color: darkseagreen;
+}
+
+.font{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+ul{
+    position: relative;
+    top: 0.4rem;
+}
+
+li{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}

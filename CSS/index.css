@@ -35,14 +35,16 @@ header{
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    top: 5rem;
+    top: 6rem;
 }
 
 .section-historico{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    border: 0.1rem solid black;
+    background-color: white;
     position: relative;
     top: 2rem;
 }
@@ -51,6 +53,12 @@ header{
     width: 22rem;
     height: 12rem;
     justify-content: center;
+}
+
+.historico{
+    position: absolute;
+    right: 1rem;
+    top: 105%;
 }
 
 .botao{
@@ -67,13 +75,17 @@ header{
    
 }
 
-.historico{
-    position: absolute;
-    right: 1rem;
-    top: 12rem;
-}
-
 .font{
     align-items: center;
-    font-size: 2rem
+    font-size: 2rem;
 }
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.saldo{
+    font-size: 1.3rem;
+    font-weight: bold;
+ }

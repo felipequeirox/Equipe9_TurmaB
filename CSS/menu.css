@@ -2,6 +2,14 @@ body{
     background-color: gainsboro; 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex start;
+}
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -12,6 +20,7 @@ header{
     background-color: darkolivegreen;
 }
 
+
 .logo{
     font-size: 1.5rem;
     padding: 1rem;
@@ -20,27 +29,43 @@ header{
     transform: translateX(-60%);
 }
 
-main{
+.img-user{
+    width: 5rem;
+    height: 5rem;
+}
+
+.infos-user{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    top: 5rem;
+    top: 2rem;
 }
 
-.destaque{
+h2{
     font-size: 2rem;
+    font-weight: bold;
 }
 
-.subtexto{
+.troca-conta{
+    display: flex; 
     position: relative;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 15rem;
-    top: 5rem;
-    font-size: 1.5rem;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    padding: 0.6rem;
+    margin: 1rem;
+    width: 7rem; 
+    height: 0.1rem;
+    left: 6rem;
+    bottom: 1rem;
+    background-color: darkseagreen;
+}
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .botao{
@@ -51,18 +76,13 @@ main{
     border: 0.1rem solid black;
     padding: 1rem;
     margin: 1rem;
-    min-width: 15rem; 
-    height: 2rem;
-    top: 15rem;
+    width: 10rem; 
+    height: 1rem;
+    top: 3rem;
     background-color: darkseagreen;
 }
 
 .fonte{
     align-items: center;
-    font-size: 1.5rem
-}
-
-img{
-    width: 2.5rem;
-    height: 2.5rem;
+    font-size: 1.2rem
 }

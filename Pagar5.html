@@ -2,54 +2,75 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprovante</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/comprovante.css">
 </head>
+
 <body>
 
     <header>
 
-        <a href='Menu.html'>☰</a>
+        <a href="Menu.html"><img src="IMG/Menu.png" alt=""></a>
 
-        <h1> AllPay </h1>
+        <h1 class = "logo"> AllPay</h1>
 
     </header>
 
     <main> 
     
-        <h2> Transação processada pela All Pay </h2>
+        <section class = "section-boxe">
+            
+            <div class = "header-comprovante">
+            
+                <h2 class = "destaque"> <!-- Transação processada pela --> All Pay </h2>
 
-        <h3> R$20,00 </h3>
+                <h3 class = "reais"> R$20,00 </h3>
 
-        <p> Data e Hora: 01/08, 10:38</p>
+            </div>
+            
+            <section class = "data">
 
-        <!-- Dados da Conta que Realizou o Pagamento (Usuário)-->
-        
-        <section>
+                <h3 class = "subtexto"> Data e Hora:</h3>
+                
+                <p class = "infos-data">01/08, 10:38</p>
 
-            <h3> Dados da Conta:</h3>
+            </section>
 
-            <p> Marcelo Carvalho </p>
+            <!-- Dados da Conta que Realizou o Pagamento (Usuário)-->
+            
+            <section class = "conta">
 
-            <p> 523.***.***-53 </p>
+                <h3 class = "subtexto" > Dados da Conta:</h3>
+
+                <p> Marcelo Carvalho </p>
+
+                <p> 523.***.***-53 </p>
+
+            </section>
+
+            <!-- Dados da Conta de que Recebeu o Pagamento (Fornecedor)-->
+
+            <section class = "recebeu"> 
+
+                <h3 class = "subtexto"> Dados de Quem Recebeu:</h3>
+
+                <p> José Carlos </p>
+
+                <p> 509.***.***-43 </p>
+
+            </section>
+
+            <!-- Botão adicionado posteriormente pelo grupo, dada a necessidade do usuário voltar para a página inicial -->
+
+            <a class = "botao" href='index.html'>Voltar ao Início</a>
+
+            <!-- Botão não possui funcionalidade, é apenas representativo -->
+
+            <a class = "botao" href='index.html'>Compartilhar</a>
 
         </section>
-
-        <!-- Dados da Conta de que Recebeu o Pagamento (Fornecedor)-->
-
-        <section> 
-
-            <h3> Dados de Quem Recebeu:</h3>
-
-            <p> José Carlos </p>
-
-            <p> 509.***.***-43 </p>
-
-        </section>
-
-        <!-- Botão adicionado posteriormente pelo grupo, dada a necessidade do usuário voltar para a página inicial -->
-
-        <a href='index.html'>Voltar ao Início</a>
-        
 
     </main>
 </body>

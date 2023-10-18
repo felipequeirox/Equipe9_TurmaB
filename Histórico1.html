@@ -3,57 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histórico</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/historico1.css">
 </head>
 
 <body>
 
     <header>
+        
+        <a href="Menu.html"><img src="IMG/Menu.png" alt=""></a>
 
-        <a href='Menu.html'>☰</a>
-
-        <h1> AllPay </h1>
+        <h1 class = "logo"> AllPay </h1>
 
     </header>
 
     <main>
 
-        <h2> Histórico </h2>
+        <h2 class = "historico"> Histórico </h2>
 
-        <section>
+        <section class = "section-grafico">
         
-        <!-- Gráfico -->
+            <!-- Gráfico -->
 
-        <h3> Evolução Diária do Lucro </h3>
+            <h3 class = "negrito"> Evolução Diária do Lucro </h3>
 
-        <img src="IMG/Gráfico-Histórico.png" alt="Evolução dos Lucros em Função do Tempo">
+            <img class = "grafico-img" src="IMG/Gráfico-Histórico.png" alt="Evolução dos Lucros em Função do Tempo">
 
+            <section class = "lucro-diario">
 
-        <!-- Informação Sobre Lucro Diário  -->
+                <!-- Informação Sobre Lucro Diário  -->
 
-        <h3> Lucro Diário: </h3>
+                <h3> Lucro Diário: </h3>
 
-        <p> + R$20,90 </p>
+                <p> + R$20,90 </p>
+
+            </section>
 
         </section>
 
-        <section>
+        <section class = "ultimas-transacoes">
         
-        <!-- Informação Sobre Transações Recentes -->
+            <!-- Informação Sobre Transações Recentes -->
 
-        <h3> Últimas Transações </h3>
+            <h3 class = "titulo-ultimas-transacoes"> Últimas Transações </h3>
 
-        <!-- Neste caso, demos exemplo de duas das últimas transações do possível usuário -->
+            <!-- Neste caso, demos exemplo de duas das últimas transações do possível usuário -->
 
-        <p> + R$3,90 - 15:30 </p>
+            <ul>
 
-        <p> - R$1,20 - 14:10 </p>
+                <li> + R$3,90 - 15:30 </li>
+
+                <li> - R$1,20 - 14:10 </li>
+
+                <li> - R$20,00 - 12:55</li>
+
+            </ul>
 
         </section>
 
         <!-- Botão Ver Mais Informações -->
 
-        <a href='Histórico2.html'>Obter mais detalhes</a>
+        <a class = "obter-infos font" href='Histórico2.html'>Obter mais detalhes</a>
 
     </main>
 </body>

@@ -3,18 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Histórico - Mais Informações</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/historico2.css">
 </head>
 
 <body>
 
     <header>
+        
+        <a href="Menu.html"><img src="IMG/Menu.png" alt=""></a>
 
-        <a href='Menu.html'>☰</a>
-
-        <h1> AllPay </h1>
+        <h1 class = "logo"> AllPay </h1>
 
     </header>
+
 
     <main>
 
@@ -23,77 +27,85 @@
         <h2> Total Disponível: R$ 26,75 </h2>
 
         <!-- Informação Sobre Vendas (Mês) -->
+        
+        <section class = "section-vendas">
 
-        <section>
+            <h3 class = "destaque"> Vendas (Mês): </h3>
 
-            <h3> Vendas (Mês): </h3>
-
-            <p> + R$ 2784,22 </p>
+            <p class = "valor"> + R$ 2784,22 </p>
 
         </section>
 
         <!-- Informação Sobre Gastos (Mês) -->
 
-        <section>
+        <section class = "section-gastos">
 
-            <h3> Gastos (Mês): </h3>
+            <h3 class = "destaque"> Gastos (Mês): </h3>
 
 
-            <p> - R$ 498,00 </p>
+            <p class = "valor"> - R$ 498,00 </p>
 
         </section>
 
         <!-- Informação Sobre Transações Nos Últimos dias -->
 
-        <section>
+        <section class = "section-transacoes">
 
-            <h3> Transações Nos Últimos Dias: </h3>
+            <h3 class = "subtexto"> Extrato: </h3>
 
             <!-- Simulação de Transações Referentes ao Dia 31/08 -->
 
-            <h4> 31/08 </h4>
+            <section class = "section-extrato">
 
-            <ul>
+                <h4 class = "data"> 31/08 </h4>
 
-                <li> + R$ 2,90 </li>
+                <ul>
 
-                <li> - R$ 1,20 </li>
+                    <li> + R$ 2,90 </li>
 
-                <li> + R$ 10,20</li>
+                    <li> - R$ 1,20 </li>
+
+                    <li> + R$ 10,20</li>
 
             </ul>
+
+            </section>
 
             <!-- Simulação de Transações Referentes ao Dia 30/08-->
 
-            <h4> 30/08 </h4>
+            <section class = "section-extrato">
 
-            <ul>
+                <h4 class = "data"> 30/08 </h4>
 
-                <li> + R$ 2,90 </li>
+                <ul>
 
-                <li> - R$ 1,20 </li>
+                    <li> + R$ 2,90 </li>
 
-                <li> + R$ 10,20</li>
+                    <li> - R$ 1,20 </li>
 
-            </ul>
+                    <li> + R$ 10,20</li>
 
+                </ul>
+
+            </section>
+            
             <!-- Neste caso apenas foram colocadas algumas datas de exemplo, mas o usuário poderia ver maior número de datas passadas -->
 
         </section>
 
         <!-- Gráfico de Análise Lucro por Dia-->
 
-        <section>
+        <section class = "section-grafico">
 
-            <h4> Gráfico de Evolução das Vendas por Dia </h4>
+            <!-- <h4 class = "subtexto"> Gráfico de Evolução das Vendas por Dia </h4> -->
 
-            <img src="IMG/Gráfico - VendasDia.JPG" alt="Evolução das Vendas em Função dos Dias">
+            <img class = "grafico" src="IMG/Gráfico-VendasDia.JPG" alt="Evolução das Vendas em Função dos Dias">
 
         </section>
 
         <!-- Botão adicionado posteriormente pelo grupo, dada a necessidade do usuário voltar para a página inicial -->
 
-        <a href='index.html'>Voltar ao Início</a>
+        <a class = "botao fonte" href='index.html'>Voltar ao Início</a>
 
     </main>
 </body>

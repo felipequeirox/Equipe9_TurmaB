@@ -1,0 +1,121 @@
+body{
+    background-color: gainsboro; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.section-boxe{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: flex-start;
+    border: 0.1rem solid black;
+    width: 16rem;;
+    height: 20rem;
+    position: relative;
+    top: 3rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.1rem solid black;
+    background-color: darkolivegreen;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.destaque{
+    font-size: 2rem;
+}
+
+.header-comprovante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    left: 0.5rem;
+}
+
+.reais{
+    font-size: 1.5rem;
+    position: relative;
+    left: 4rem;
+}
+
+.subtexto{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2.5rem;
+    left: 0.5rem;
+}
+
+.infos-data{
+    position: relative;
+    left: 0.5rem;
+}
+
+.conta{
+    position: relative;
+    top: 4.5rem;
+    left: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.recebeu{
+    position: relative;
+    top: 6.5rem;
+    left: 0.5rem;
+    line-height: 1.5rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+.botao{
+    display: flex; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    width: 7rem; 
+    height: 0.3rem;
+    top: 10rem;
+    right: 1.1rem;
+    background-color: darkseagreen;
+}
