@@ -50,7 +50,7 @@ main{
     position: relative;
     align-items: center;
     flex-direction: column;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #0D284F;
     padding: 1rem;
     margin: 1rem;
     min-width: 15rem; 
@@ -72,5 +72,9 @@ img{
 
 .open-sans{
     font-family: 'Open Sans', sans-serif;
-    color: #0D284F;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }

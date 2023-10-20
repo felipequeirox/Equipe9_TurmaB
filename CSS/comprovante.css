@@ -15,7 +15,7 @@ main{
     flex-direction: column;  
     justify-content: center;
     align-items: flex-start;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #0D284F;
     width: 16rem;;
     height: 20rem;
     position: relative;
@@ -29,7 +29,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #0D284F;
     background-color: #8CBD8C;
 }
 
@@ -110,7 +110,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #0D284F;
     padding: 1rem;
     margin: 1rem;
     width: 7rem; 
@@ -122,5 +122,9 @@ p{
 
 .open-sans{
     font-family: 'Open Sans', sans-serif;
-    color: #0D284F;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }

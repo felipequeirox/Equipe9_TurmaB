@@ -18,7 +18,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #0D284F;
     background-color: #8CBD8C;
 }
 
@@ -35,7 +35,7 @@ header{
     width: 15rem;
     height: 15rem;
     padding: 1rem;
-    border: 0.3rem solid black;
+    border: 0.3rem solid #0D284F;
 }
 
 .pagando{
@@ -51,5 +51,9 @@ img{
 
 .open-sans{
     font-family: 'Open Sans', sans-serif;
-    color: #0D284F;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }

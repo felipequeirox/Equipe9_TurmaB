@@ -16,7 +16,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #0D284F;
     background-color: #8CBD8C;
 }
 
@@ -54,7 +54,7 @@ h2{
     align-items: center;
     position: relative;
     bottom: 1rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #0D284F;
     padding: 0.6rem;
     margin: 1rem;
     width: 8rem; 
@@ -67,20 +67,13 @@ img{
     height: 2.5rem;
 }
 
-.section-botoes{
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .botao{
     display: flex;
     justify-content: center;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #0D284F;
     padding: 1rem;
     margin: 1rem;
-    width: 100%; 
+    width: 50%; 
     height: 1rem;
     background-color: #8CBD8C;
 }
@@ -92,5 +85,9 @@ img{
 
 .open-sans{
     font-family: 'Open Sans', sans-serif;
-    color: #0D284F;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }
