@@ -1,5 +1,5 @@
 body{
-    background-color: gainsboro; 
+    background-color: #B3C7E3;  
 }
 
 main{
@@ -17,7 +17,7 @@ header{
     align-items: center;
     position: relative;
     border-bottom: 0.1rem solid black;
-    background-color: darkolivegreen;
+    background-color: #8CBD8C;
 }
 
 
@@ -123,4 +123,9 @@ li{
     line-height: 2rem;
     font-size: 1.2rem;
     font-style: italic;
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+    color: #0D284F;
 }

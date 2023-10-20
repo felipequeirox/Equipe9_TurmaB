@@ -1,5 +1,5 @@
 body{
-    background-color: gainsboro; 
+    background-color: #B3C7E3; 
 }
 
 header{
@@ -9,7 +9,7 @@ header{
     align-items: center;
     position: relative;
     border-bottom: 0.1rem solid black;
-    background-color: darkolivegreen;
+    background-color: #8CBD8C;
 }
 
 .logo{
@@ -45,7 +45,11 @@ main{
 }
 
 .forma-pagamento{
-    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
 }
 
 .botao{
@@ -58,7 +62,7 @@ main{
     margin: 1rem;
     min-width: 15rem; 
     height: 2rem;
-    background-color: darkseagreen;
+    background-color: #8CBD8C;
 }
 
 .fonte{
@@ -69,4 +73,9 @@ main{
 img{
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+    color: #0D284F;
 }

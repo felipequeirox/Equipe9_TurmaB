@@ -1,5 +1,5 @@
 body{
-    background-color: gainsboro; 
+    background-color: #B3C7E3;  
 }
 
 main{
@@ -30,7 +30,7 @@ header{
     align-items: center;
     position: relative;
     border-bottom: 0.1rem solid black;
-    background-color: darkolivegreen;
+    background-color: #8CBD8C;
 }
 
 
@@ -58,7 +58,7 @@ header{
 .reais{
     font-size: 1.5rem;
     position: relative;
-    left: 4rem;
+    left: 3.5rem;
 }
 
 .subtexto{
@@ -117,5 +117,10 @@ p{
     height: 0.3rem;
     top: 10rem;
     right: 1.1rem;
-    background-color: darkseagreen;
+    background-color: #8CBD8C;
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+    color: #0D284F;
 }

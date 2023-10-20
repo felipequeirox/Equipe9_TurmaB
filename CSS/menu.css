@@ -1,12 +1,12 @@
 body{
-    background-color: gainsboro; 
+    background-color: #B3C7E3;  
 }
 
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex start;
+    align-items: center;
 }
 
 
@@ -17,7 +17,7 @@ header{
     align-items: center;
     position: relative;
     border-bottom: 0.1rem solid black;
-    background-color: darkolivegreen;
+    background-color: #8CBD8C;
 }
 
 
@@ -37,7 +37,7 @@ header{
 .infos-user{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     position: relative;
     top: 2rem;
 }
@@ -49,18 +49,17 @@ h2{
 
 .troca-conta{
     display: flex; 
-    position: relative;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
     border: 0.1rem solid black;
     padding: 0.6rem;
     margin: 1rem;
-    width: 7rem; 
+    width: 8rem; 
     height: 0.1rem;
-    left: 6rem;
-    bottom: 1rem;
-    background-color: darkseagreen;
+    background-color: #8CBD8C;
 }
 
 img{
@@ -68,21 +67,30 @@ img{
     height: 2.5rem;
 }
 
-.botao{
+.section-botoes{
     display: flex; 
-    position: relative;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
     border: 0.1rem solid black;
     padding: 1rem;
     margin: 1rem;
-    width: 10rem; 
+    width: 100%; 
     height: 1rem;
-    top: 3rem;
-    background-color: darkseagreen;
+    background-color: #8CBD8C;
 }
 
 .fonte{
     align-items: center;
     font-size: 1.2rem
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+    color: #0D284F;
 }
