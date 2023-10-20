@@ -51,7 +51,8 @@ section{
     top: 2rem;
     width: 15rem;
     height: 3rem;
-
+    border: 0.1rem solid #0D284F;
+    background-color: #A1D6A1;
 }
 
 .botao{

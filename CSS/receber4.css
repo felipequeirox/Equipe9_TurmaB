@@ -72,6 +72,11 @@ img{
     color:black;
 }
 
+.eb-garamond{
+    font-family: 'EB Garamond', serif;
+    color: black;
+}
+
 a{
     text-decoration: none;
 }
