@@ -63,8 +63,7 @@ header{
 
 .botao{
     display: flex; 
-    position: relative;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
     border: 0.1rem solid #0D284F;
     padding: 1rem;

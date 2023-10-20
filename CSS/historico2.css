@@ -48,7 +48,7 @@ h2{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem;
-    border: 0.05rem solid #0D284F;
+    border: 0.1rem solid #0D284F;
     border-right: 0rem;
     align-items:center;
     width: 8rem;
@@ -60,7 +60,7 @@ h2{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem;
-    border: 0.05rem solid #0D284F;
+    border: 0.1rem solid #0D284F;
     align-items:center;
     width: 8rem;
     height: 6em;
