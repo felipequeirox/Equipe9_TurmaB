@@ -1,8 +1,8 @@
-body{
-    background-color: #B3C7E3; 
+body {
+    background-color: #B3C7E3;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -12,7 +12,7 @@ header{
     background-color: #8CBD8C;
 }
 
-.logo{
+.logo {
     font-size: 1.5rem;
     padding: 1rem;
     position: absolute;
@@ -20,7 +20,7 @@ header{
     transform: translateX(-60%);
 }
 
-main{
+main {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -29,61 +29,121 @@ main{
     top: 2rem;
 }
 
-.destaque{
+.destaque {
     font-size: 2rem;
 }
 
-.subtexto{
+.subtexto {
     font-size: 1.5rem;
 }
 
-section{
+.valor {
     display: flex;
     position: relative;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    top: 4rem;
-}
-
-.input{
-    position: relative; 
+    flex-wrap: wrap;
+    background-color: #8CBD8C;
     top: 2rem;
-    width: 15rem;
+    width: 18rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
     height: 3rem;
-    border: 0.1rem solid #0D284F;
-    background-color: #A1D6A1;
+    border-radius: 1rem;
+    font-weight: bold;
 }
 
-.botao{
-    display: flex; 
+.teclas {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    top: 4rem;
+    width: 14rem;
+}
+
+.botao {
+    display: flex;
     position: relative;
     align-items: center;
     flex-direction: column;
     border: 0.1rem solid #0D284F;
     padding: 1rem;
     margin: 1rem;
-    min-width: 15rem; 
+    min-width: 15rem;
     height: 2rem;
-    top: 18rem;
+    top: 5rem;
     background-color: #8CBD8C;
 }
 
-.fonte{
+.fonte {
     align-items: center;
     font-size: 1.5rem
 }
 
-img{
+img {
     width: 2.5rem;
     height: 2.5rem;
 }
 
-.open-sans{
+.open-sans {
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
+.key {
+    padding: 1.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    width: 0.5rem;
+}
+
+.key:active {
+    background-color: #8CBD8C;
+}
+
+.num {
+    background-color: #2F4C75;
+
+}
+
+.com {
+    background-color: #8CBD8C;
+}
+
+.mais {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    width: 12rem;
+}
+
+.produto {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A1D6A1;
+    top: 3rem;
+    width: 12rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+

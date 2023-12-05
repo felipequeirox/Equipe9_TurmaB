@@ -34,19 +34,20 @@ main{
     font-size: 1.5rem
 }
 
-.botao{
-    display: flex; 
+.botao {
+    display: flex;
     position: relative;
     align-items: center;
     flex-direction: column;
     border: 0.1rem solid #0D284F;
     padding: 1rem;
     margin: 1rem;
-    min-width: 15rem; 
+    min-width: 15rem;
     height: 2rem;
     top: 12rem;
     background-color: #8CBD8C;
 }
+
 
 .dados{
     position: relative;
