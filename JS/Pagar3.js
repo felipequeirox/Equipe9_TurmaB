@@ -86,7 +86,6 @@ document.addEventListener('DOMContentLoaded', function(){
         voltar.href = "index.html";
         seguir.href = "Pagar4.html"
 
-        // Delimita a Ordem
         main = document.querySelector("main")
         main.appendChild(section)
     })
